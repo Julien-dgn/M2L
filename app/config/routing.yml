@@ -1,0 +1,19 @@
+bts2_user:
+    resource: "@BTS2UserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+bts2_blog:
+    resource: "@BlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ligues_platform:
+    resource : "@LIGUESPlatformBundle/Resources/config/routing.yml"
+    prefix:   /
+
+achat_vente_blog:
+    resource: "@AchatVenteBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+
+

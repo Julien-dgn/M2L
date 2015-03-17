@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{% block title %} Mon blog {% endblock %}</title>
+		<meta charset="UTF-8"/>
+		{% block stylesheets %}
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		{% endblock %}
+		
+	</head>
+<body>
+
+
+{% include("BlogBundle:Default:menu.html.twig") %}
+{% block body %}
+
+
+{% endblock %}
+</body>
+</html>

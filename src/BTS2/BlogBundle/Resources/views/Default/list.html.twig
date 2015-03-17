@@ -1,0 +1,31 @@
+{% extends "BlogBundle:Default:layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Liste des articles {% endblock %}
+{% block body %}
+
+<table class="table table-borderer table-condensed">
+	<tr>
+		<th>Id</th>
+		<th>Titre</th>
+		<th>Auteur</th>
+		<th>Publié</th>
+		<th>Action</th>
+	</tr>
+	
+{% for article in articleList%}
+	<tr>
+		<td>{{ article.id }}</td>
+		<td>{{ article.titre }}</td>
+		<td>{{ article.auteur }}</td>
+		<td>{{ article.publier }}</td>
+		<td><a href="{{ path('BTS2_blog_edit',{'id': article.id}) }}" >Editer</a></td>
+	</tr>
+	{% else %}
+	<tr>
+		<th colspan="5">Pas d'article</th>
+	</tr>
+
+
+{% endfor %}
+</table>
+{% endblock %}

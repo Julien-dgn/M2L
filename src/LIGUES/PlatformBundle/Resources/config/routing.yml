@@ -1,0 +1,67 @@
+ligues_platform_forum:
+    path:     /MaisonDesLigues-forum
+    defaults: { _controller: LIGUESPlatformBundle:Default:forum }
+
+ligues_platform_forum_compte:
+    path:     /MaisonDesLigues-forum-compte
+    defaults: { _controller: LIGUESPlatformBundle:Default:compte }
+
+ligues_platform_forum_compte_formulaire:
+    path:     /MaisonDesLigues-forum-compte-formulaire
+    defaults: { _controller: LIGUESPlatformBundle:Default:formulaire_inscription }
+
+ligues_platform_forum_espace_membre:
+    path:     /MaisonDesLigues-forum-espace-membre
+    defaults: { _controller: LIGUESPlatformBundle:Default:espace_membre }
+
+ligues_platform_forum_espace_membre_categorie_membre:
+    path:     /MaisonDesLigues-forum-espace-membre-categorie
+    defaults: { _controller: LIGUESPlatformBundle:Default:espace_membre_categorie }
+
+ligues_platform_forum_espace_membre_categorie_foot:
+    path:     /MaisonDesLigues-forum-espace-membre-categorie-foot
+    defaults: { _controller: LIGUESPlatformBundle:Default:categorie_foot }
+
+ligues_platform_forum_espace_membre_ajouter_article_formulaire:
+    path:     /MaisonDesLigues-forum-espace-membre-ajouter-article-formulaire
+    defaults: { _controller: LIGUESPlatformBundle:Default:ajouter_article_formulaire }
+
+ligues_platform_forum_espace_membre_ajouter_article:
+    path:     /MaisonDesLigues-forum-espace-membre-ajouter-article
+    defaults: { _controller: LIGUESPlatformBundle:Default:ajouter_article }
+
+ligues_platform_forum_espace_membre_voir_article:
+    path:     /MaisonDesLigues-forum-espace-membre-voir-article
+    defaults: { _controller: LIGUESPlatformBundle:Default:voir_article }
+
+ligues_platform_forum_espace_membre_news:
+    path:     /MaisonDesLigues-forum-espace-membre-news
+    defaults: { _controller: LIGUESPlatformBundle:Default:news }
+
+ligues_platform_forum_espace_membre_voir_article_supprimer_modifier:
+    path:     /MaisonDesLigues-forum-espace-membre-voir-article-supprimer-modifier
+    defaults: { _controller: LIGUESPlatformBundle:Default:supprimer_modifier }
+
+ligues_platform_forum_espace_membre_voir_article_commentaire:
+    path:     /MaisonDesLigues-forum-espace-membre-voir-article-MS-commentaire
+    defaults: { _controller: LIGUESPlatformBundle:Default:supprimer_modifier_commentaire }
+
+ligues_platform_forum_compte_modifier:
+    path:     /MaisonDesLigues-forum-compte-modifier
+    defaults: { _controller: LIGUESPlatformBundle:Default:compte_modifier }
+
+ligues_platform_forum_compte_supprimer:
+    path:     /MaisonDesLigues-forum-compte-supprimer
+    defaults: { _controller: LIGUESPlatformBundle:Default:compte_supprimer }
+
+ligues_platform_forum_messagerie:
+    path:     /MaisonDesLigues-forum-messagerie
+    defaults: { _controller: LIGUESPlatformBundle:Default:messagerie }
+
+ligues_platform_forum_messagerie_ecrire:
+    path:     /MaisonDesLigues-forum-messagerie-ecrire
+    defaults: { _controller: LIGUESPlatformBundle:Default:messagerie_ecrire}
+
+ligues_platform_forum_messagerie_lire:
+    path:     /MaisonDesLigues-forum-messagerie-lire
+    defaults: { _controller: LIGUESPlatformBundle:Default:messagerie_lire}

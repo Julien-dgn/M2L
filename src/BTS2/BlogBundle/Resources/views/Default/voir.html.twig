@@ -1,0 +1,13 @@
+{% extends "BlogBundle:Default:layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Visualiser un article {% endblock %}
+{% block body %}
+
+	<h2>Article n° {{ article.id }}</h2>
+	<h2>{{ article.titre }}</h2><br/>
+	Auteur : {{ article.auteur }} <br/>
+	Message : {{ article.texte }}
+
+	
+
+{% endblock %}

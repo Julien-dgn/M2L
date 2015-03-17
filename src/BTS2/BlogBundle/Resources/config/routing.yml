@@ -1,0 +1,21 @@
+blog_homepage:
+    path:     /blog
+    defaults: { _controller: BlogBundle:Default:index }
+BTS2_blog_vue:
+    path: /blog/article/{id}
+    defaults: { _controller: BlogBundle:Default:voir }
+    requirements:
+        id: \d+
+BTS2_blog_ajouter:
+    path: /blog/ajouter
+    defaults: { _controller: BlogBundle:Default:ajouter }
+BTS2_blog_list:
+    path: /blog/article/list
+    defaults: { _controller: BlogBundle:Default:list}
+
+BTS2_blog_edit:
+    path: /blog/article/edit/{id}
+    defaults: { _controller: BlogBundle:Default:edit }
+    requirements:
+        id: \d+
+
